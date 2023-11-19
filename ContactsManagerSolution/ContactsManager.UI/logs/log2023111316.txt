@@ -1,0 +1,108 @@
+2023-11-13 16:28:00.731 +05:00 [INF] User profile is available. Using 'C:\Users\hamza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-13 16:28:02.036 +05:00 [INF] Now listening on: https://localhost:5099
+2023-11-13 16:28:18.603 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/ - -
+2023-11-13 16:28:18.720 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+2023-11-13 16:28:18.840 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-13 16:28:18.937 +05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-11-13 16:28:18.941 +05:00 [INF] Response:
+StatusCode: 302
+Location: https://localhost:5099/Account/Login?ReturnUrl=%2F
+2023-11-13 16:28:18.948 +05:00 [INF] HTTP GET / responded 302 in 232.5308 ms
+2023-11-13 16:28:18.988 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/ - - - 302 0 - 399.7829ms
+2023-11-13 16:28:19.001 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/Account/Login?ReturnUrl=%2F - -
+2023-11-13 16:28:19.010 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/Login
+2023-11-13 16:28:19.342 +05:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-11-13 16:28:19.832 +05:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-11-13 16:28:20.513 +05:00 [INF] Before Logic- ResponseHeaderActionFilter
+2023-11-13 16:28:20.516 +05:00 [INF] After Logic- ResponseHeaderActionFilter
+2023-11-13 16:28:20.540 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-13 16:28:21.679 +05:00 [INF] Executed ViewResult - view Login executed in 1142.294ms.
+2023-11-13 16:28:21.696 +05:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 1857.644ms
+2023-11-13 16:28:21.701 +05:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-11-13 16:28:21.709 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 13 Nov 2023 11:28:20 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+My-Key-From-Global: [Redacted]
+X-Frame-Options: [Redacted]
+2023-11-13 16:28:21.714 +05:00 [INF] HTTP GET /Account/Login responded 200 in 2703.4957 ms
+2023-11-13 16:28:21.901 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 2900.3999ms
+2023-11-13 16:28:21.926 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/_framework/aspnetcore-browser-refresh.js - -
+2023-11-13 16:28:21.927 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/_vs/browserLink - -
+2023-11-13 16:28:21.927 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/StyleSheet.css - -
+2023-11-13 16:28:21.933 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /StyleSheet.css
+2023-11-13 16:28:21.955 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 28.6515ms
+2023-11-13 16:28:21.960 +05:00 [INF] The file /StyleSheet.css was not modified
+2023-11-13 16:28:21.963 +05:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 23 Oct 2023 10:49:56 GMT
+2023-11-13 16:28:21.965 +05:00 [INF] HTTP GET /StyleSheet.css responded 304 in 31.7618 ms
+2023-11-13 16:28:21.967 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/StyleSheet.css - - - 304 - text/css 40.4552ms
+2023-11-13 16:28:22.078 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 151.3884ms
+2023-11-13 16:28:35.212 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/Account/Register - -
+2023-11-13 16:28:35.217 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/Register
+2023-11-13 16:28:35.228 +05:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI)'
+2023-11-13 16:28:35.233 +05:00 [INF] Route matched with {action = "Register", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Register() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-11-13 16:28:35.255 +05:00 [INF] Before Logic- ResponseHeaderActionFilter
+2023-11-13 16:28:35.257 +05:00 [INF] After Logic- ResponseHeaderActionFilter
+2023-11-13 16:28:35.260 +05:00 [INF] Executing ViewResult, running view Register.
+2023-11-13 16:28:35.385 +05:00 [INF] Executed ViewResult - view Register executed in 127.5129ms.
+2023-11-13 16:28:35.388 +05:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI) in 150.3769ms
+2023-11-13 16:28:35.393 +05:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Register (ContactsManager.UI)'
+2023-11-13 16:28:35.398 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Mon, 13 Nov 2023 11:28:35 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+My-Key-From-Global: [Redacted]
+2023-11-13 16:28:35.401 +05:00 [INF] HTTP GET /Account/Register responded 200 in 184.3993 ms
+2023-11-13 16:28:35.409 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/Account/Register - - - 200 - text/html;+charset=utf-8 197.4751ms
+2023-11-13 16:28:35.437 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/_framework/aspnetcore-browser-refresh.js - -
+2023-11-13 16:28:35.437 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/_vs/browserLink - -
+2023-11-13 16:28:35.441 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 4.3551ms
+2023-11-13 16:28:35.452 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 14.5893ms
+2023-11-13 16:28:49.930 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/Account/IsEmailAlreadyRegistered?Email=scott%40example.com - -
+2023-11-13 16:28:49.938 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/IsEmailAlreadyRegistered
+2023-11-13 16:28:49.940 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-13 16:28:49.943 +05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-11-13 16:28:49.945 +05:00 [INF] Response:
+StatusCode: 401
+Location: https://localhost:5099/Account/Login?ReturnUrl=%2FAccount%2FIsEmailAlreadyRegistered%3FEmail%3Dscott%2540example.com
+2023-11-13 16:28:49.947 +05:00 [INF] HTTP GET /Account/IsEmailAlreadyRegistered responded 401 in 9.2849 ms
+2023-11-13 16:28:49.950 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/Account/IsEmailAlreadyRegistered?Email=scott%40example.com - - - 401 0 - 20.0832ms

@@ -1,0 +1,89 @@
+2023-11-10 20:26:41.494 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-10 20:26:41.515 +05:00 [INF] Hosting environment: Development
+2023-11-10 20:26:41.524 +05:00 [INF] Content root path: C:\Users\hamza\source\repos\ContactsManagerSolution\ContactsManager.UI\
+2023-11-10 20:28:09.404 +05:00 [INF] User profile is available. Using 'C:\Users\hamza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-10 20:28:09.880 +05:00 [INF] Now listening on: https://localhost:5099
+2023-11-10 20:28:14.182 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/ - -
+2023-11-10 20:28:14.576 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+2023-11-10 20:28:15.025 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-10 20:28:15.186 +05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-11-10 20:28:15.199 +05:00 [INF] Response:
+StatusCode: 302
+Location: https://localhost:5099/Account/Login?ReturnUrl=%2F
+2023-11-10 20:28:15.207 +05:00 [INF] HTTP GET / responded 302 in 639.6697 ms
+2023-11-10 20:28:15.261 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/ - - - 302 0 - 1089.3538ms
+2023-11-10 20:28:15.280 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/Account/Login?ReturnUrl=%2F - -
+2023-11-10 20:28:15.283 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/Login
+2023-11-10 20:28:15.312 +05:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-11-10 20:28:15.400 +05:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-11-10 20:28:15.913 +05:00 [INF] Before Logic- ResponseHeaderActionFilter
+2023-11-10 20:28:15.916 +05:00 [INF] After Logic- ResponseHeaderActionFilter
+2023-11-10 20:28:15.945 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-10 20:28:16.605 +05:00 [INF] Executed ViewResult - view Login executed in 672.8954ms.
+2023-11-10 20:28:16.619 +05:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 1214.3164ms
+2023-11-10 20:28:16.623 +05:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-11-10 20:28:16.630 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Fri, 10 Nov 2023 15:28:16 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+My-Key-From-Global: [Redacted]
+X-Frame-Options: [Redacted]
+2023-11-10 20:28:16.633 +05:00 [INF] HTTP GET /Account/Login responded 200 in 1350.0228 ms
+2023-11-10 20:28:17.005 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 1724.4794ms
+2023-11-10 20:28:17.006 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/StyleSheet.css - -
+2023-11-10 20:28:17.007 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 20:28:17.007 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/_vs/browserLink - -
+2023-11-10 20:28:17.009 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /StyleSheet.css
+2023-11-10 20:28:17.021 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 14.5003ms
+2023-11-10 20:28:17.063 +05:00 [INF] Sending file. Request path: '/StyleSheet.css'. Physical path: 'C:\Users\hamza\source\repos\ContactsManagerSolution\ContactsManager.UI\wwwroot\StyleSheet.css'
+2023-11-10 20:28:17.066 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/css
+Date: Fri, 10 Nov 2023 15:28:16 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Mon, 23 Oct 2023 10:49:56 GMT
+Content-Length: 10279
+2023-11-10 20:28:17.067 +05:00 [INF] HTTP GET /StyleSheet.css responded 200 in 58.3280 ms
+2023-11-10 20:28:17.069 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/StyleSheet.css - - - 200 10279 text/css 63.3568ms
+2023-11-10 20:28:17.074 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 67.2573ms
+2023-11-10 20:28:17.760 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/favicon.ico - -
+2023-11-10 20:28:17.765 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+2023-11-10 20:28:17.953 +05:00 [INF] Sending file. Request path: '/favicon.ico'. Physical path: 'C:\Users\hamza\source\repos\ContactsManagerSolution\ContactsManager.UI\wwwroot\favicon.ico'
+2023-11-10 20:28:18.023 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: image/x-icon
+Date: Fri, 10 Nov 2023 15:28:17 GMT
+Server: Kestrel
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Sat, 28 Oct 2023 10:07:04 GMT
+Content-Length: 5430
+2023-11-10 20:28:18.027 +05:00 [INF] HTTP GET /favicon.ico responded 200 in 261.8984 ms
+2023-11-10 20:28:18.032 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/favicon.ico - - - 200 5430 image/x-icon 271.3748ms

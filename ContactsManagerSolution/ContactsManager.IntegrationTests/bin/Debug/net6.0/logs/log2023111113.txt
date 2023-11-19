@@ -1,0 +1,42 @@
+2023-11-11 13:56:38.417 +05:00 [INF] User profile is available. Using 'C:\Users\hamza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-11 13:56:38.567 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost/persons/index - -
+2023-11-11 13:56:38.575 +05:00 [WRN] Failed to determine the https port for redirect.
+2023-11-11 13:56:38.579 +05:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /persons/index
+2023-11-11 13:56:38.622 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-11 13:56:38.625 +05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-11-11 13:56:38.626 +05:00 [INF] Response:
+StatusCode: 302
+Location: http://localhost/Account/Login?ReturnUrl=%2Fpersons%2Findex
+2023-11-11 13:56:38.628 +05:00 [INF] HTTP GET /persons/index responded 302 in 49.9908 ms
+2023-11-11 13:56:38.637 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost/persons/index - - - 302 - - 73.5640ms
+2023-11-11 13:56:38.640 +05:00 [INF] Request starting HTTP/1.1 GET http://localhost/Account/Login?ReturnUrl=%2Fpersons%2Findex - -
+2023-11-11 13:56:38.640 +05:00 [INF] Request:
+Protocol: HTTP/1.1
+Method: GET
+Scheme: http
+PathBase: 
+Path: /Account/Login
+2023-11-11 13:56:38.646 +05:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-11-11 13:56:38.658 +05:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-11-11 13:56:38.815 +05:00 [INF] Before Logic- ResponseHeaderActionFilter
+2023-11-11 13:56:38.815 +05:00 [INF] After Logic- ResponseHeaderActionFilter
+2023-11-11 13:56:38.830 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-11 13:56:39.049 +05:00 [INF] Executed ViewResult - view Login executed in 218.5098ms.
+2023-11-11 13:56:39.050 +05:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 391.2832ms
+2023-11-11 13:56:39.050 +05:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-11-11 13:56:39.050 +05:00 [INF] Response:
+StatusCode: 200
+My-Key-From-Global: [Redacted]
+Content-Type: text/html; charset=utf-8
+Set-Cookie: [Redacted]
+X-Frame-Options: [Redacted]
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+2023-11-11 13:56:39.050 +05:00 [INF] HTTP GET /Account/Login responded 200 in 409.5748 ms
+2023-11-11 13:56:39.054 +05:00 [INF] Request finished HTTP/1.1 GET http://localhost/Account/Login?ReturnUrl=%2Fpersons%2Findex - - - 200 - text/html;+charset=utf-8 413.5347ms

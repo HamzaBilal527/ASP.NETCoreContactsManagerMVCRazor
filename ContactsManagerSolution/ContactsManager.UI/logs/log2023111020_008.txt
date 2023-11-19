@@ -1,0 +1,51 @@
+2023-11-10 20:28:09.885 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2023-11-10 20:28:09.901 +05:00 [INF] Hosting environment: Development
+2023-11-10 20:28:09.913 +05:00 [INF] Content root path: C:\Users\hamza\source\repos\ContactsManagerSolution\ContactsManager.UI\
+2023-11-10 20:29:08.848 +05:00 [INF] User profile is available. Using 'C:\Users\hamza\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2023-11-10 20:29:09.232 +05:00 [INF] Now listening on: https://localhost:5099
+2023-11-10 20:29:12.601 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/ - -
+2023-11-10 20:29:12.834 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+2023-11-10 20:29:12.963 +05:00 [INF] Authorization failed. These requirements were not met:
+DenyAnonymousAuthorizationRequirement: Requires an authenticated user.
+2023-11-10 20:29:13.001 +05:00 [INF] AuthenticationScheme: Identity.Application was challenged.
+2023-11-10 20:29:13.005 +05:00 [INF] Response:
+StatusCode: 302
+Location: https://localhost:5099/Account/Login?ReturnUrl=%2F
+2023-11-10 20:29:13.015 +05:00 [INF] HTTP GET / responded 302 in 183.3316 ms
+2023-11-10 20:29:13.069 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/ - - - 302 0 - 481.2323ms
+2023-11-10 20:29:13.081 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/Account/Login?ReturnUrl=%2F - -
+2023-11-10 20:29:13.087 +05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Account/Login
+2023-11-10 20:29:13.202 +05:00 [INF] Executing endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-11-10 20:29:13.366 +05:00 [INF] Route matched with {action = "Login", controller = "Account", area = ""}. Executing controller action with signature Microsoft.AspNetCore.Mvc.IActionResult Login() on controller ContactsManager.UI.Controllers.AccountController (ContactsManager.UI).
+2023-11-10 20:29:14.096 +05:00 [INF] Before Logic- ResponseHeaderActionFilter
+2023-11-10 20:29:14.104 +05:00 [INF] After Logic- ResponseHeaderActionFilter
+2023-11-10 20:29:14.128 +05:00 [INF] Executing ViewResult, running view Login.
+2023-11-10 20:29:15.044 +05:00 [INF] Executed ViewResult - view Login executed in 917.0343ms.
+2023-11-10 20:29:15.079 +05:00 [INF] Executed action ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI) in 1674.8351ms
+2023-11-10 20:29:15.084 +05:00 [INF] Executed endpoint 'ContactsManager.UI.Controllers.AccountController.Login (ContactsManager.UI)'
+2023-11-10 20:29:15.099 +05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Fri, 10 Nov 2023 15:29:14 GMT
+Server: Kestrel
+Cache-Control: [Redacted]
+Pragma: [Redacted]
+Set-Cookie: [Redacted]
+My-Key-From-Global: [Redacted]
+X-Frame-Options: [Redacted]
+2023-11-10 20:29:15.109 +05:00 [INF] HTTP GET /Account/Login responded 200 in 2022.8608 ms
+2023-11-10 20:29:15.871 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/Account/Login?ReturnUrl=%2F - - - 200 - text/html;+charset=utf-8 2790.4658ms
+2023-11-10 20:29:15.901 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/_framework/aspnetcore-browser-refresh.js - -
+2023-11-10 20:29:15.931 +05:00 [INF] Request starting HTTP/2 GET https://localhost:5099/_vs/browserLink - -
+2023-11-10 20:29:15.932 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/_framework/aspnetcore-browser-refresh.js - - - 200 12368 application/javascript;+charset=utf-8 31.6282ms
+2023-11-10 20:29:16.014 +05:00 [INF] Request finished HTTP/2 GET https://localhost:5099/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 82.9519ms
